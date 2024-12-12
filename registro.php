@@ -92,9 +92,9 @@
                 <label for="descripcion" class="form-label">Descripción de tu pizza</label>
                 <textarea class="form-control" id="descripcion" name="descripcion" rows="5" placeholder="Describe tu pizza misteriosa, ingredientes secretos, etc." required></textarea>
             </div>
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary btn-lg">Registrar Pizza Misteriosa</button>
-            </div>
+<!--            <div class="text-center">-->
+<!--                <button type="submit" class="btn btn-primary btn-lg">Registrar Pizza Misteriosa</button>-->
+<!--            </div>-->
         </form>
     </div>
 
