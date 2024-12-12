@@ -101,7 +101,7 @@
             </div>
             
             <div class="text-center">
-                <button type="submit" class="btn btn-primary btn-lg" disabled id="startVotingBtn">Comenzar Votación</button>
+                <button type="submit" class="btn btn-primary btn-lg" disabled >Comenzar Votación</button>
             </div>
         </form>
     </div>
