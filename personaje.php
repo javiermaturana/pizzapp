@@ -67,7 +67,7 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
-                    <a class="nav-link" href="https://jmaturana.link/pizzapp/resultados.php" target="_blank">Resultados</a>
+                    <a class="nav-link" href="resultados.php" target="_blank">Resultados</a>
                     </li>
                 </ul>
             </div>

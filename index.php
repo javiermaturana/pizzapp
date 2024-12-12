@@ -4,6 +4,7 @@
     <!-- Meta etiquetas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title>Crea Tu Pizza</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -311,7 +312,7 @@
                 <!-- Menú conservado tal como está -->
                
                 <li class="nav-item">
-                    <a class="nav-link" href="/resultados.php" target="_blank">Resultados</a>
+                    <a class="nav-link" href="resultados.php" target="_blank">Resultados</a>
                 </li>
             </ul>
         </div>
@@ -443,7 +444,7 @@ while ($row = $result->fetch_assoc()) {
         <p>&copy; 2024 Campeonato de Pizza Misteriosa. Todos los derechos reservados.</p>
         <p>
             
-            <a href="/resultados.php" target="_blank">Resultados</a>
+            <a href="resultados.php" target="_blank">Resultados</a>
         </p>
     </div>
 </footer>
