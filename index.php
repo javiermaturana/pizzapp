@@ -10,7 +10,7 @@
     <!-- Fuentes de Google -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap"
           rel="stylesheet">
-    <!-- Estilos personalizados -->
+
     <style>
         .pizzas-section .card {
             transition: all 0.3s ease;
