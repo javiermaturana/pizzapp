@@ -311,7 +311,7 @@
                 <!-- Menú conservado tal como está -->
                
                 <li class="nav-item">
-                    <a class="nav-link" href="https://jmaturana.link/pizzapp/resultados.php" target="_blank">Resultados</a>
+                    <a class="nav-link" href="/resultados.php" target="_blank">Resultados</a>
                 </li>
             </ul>
         </div>
@@ -421,7 +421,7 @@ while ($row = $result->fetch_assoc()) {
             <?php foreach ($pizzas as $pizza): ?>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
-                        <img src="https://jmaturana.link/img/Pizza.png" class="card-img-top pizza-img">
+                        <img src="/img/Pizza.png" class="card-img-top pizza-img">
                         <div class="card-body">
                             <h3 class="card-title text-center mb-3"><?php echo htmlspecialchars($pizza['pizza_name']); ?></h3>
                             <p class="card-text">
@@ -443,7 +443,7 @@ while ($row = $result->fetch_assoc()) {
         <p>&copy; 2024 Campeonato de Pizza Misteriosa. Todos los derechos reservados.</p>
         <p>
             
-            <a href="https://jmaturana.link/pizzapp/resultados.php" target="_blank">Resultados</a>
+            <a href="/resultados.php" target="_blank">Resultados</a>
         </p>
     </div>
 </footer>
