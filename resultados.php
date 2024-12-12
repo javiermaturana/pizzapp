@@ -63,6 +63,7 @@ $rankColors = ['#d6cd1e', '#bbbbbb', '#d6a21e'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados del Campeonato de Pizza</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Railway&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
