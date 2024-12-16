@@ -1,4 +1,4 @@
-name: Deploy to Hostinger
+name: Deploy
 
 on:
   push:
@@ -18,7 +18,16 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Deploy to Hostinger
+      - name: Setup initial project
+        run: |
+          ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
+          if [ ! -d ${{ secrets.PROJECT_PATH }} ]; then
+            echo 'La carpeta no existe. Creándola y clonando el repositorio...';
+            mkdir -p ${{ secrets.PROJECT_PATH }};
+            git clone git@github.com:${{ github.repository }}.git ${{ secrets.PROJECT_PATH }};
+          fi"
+
+      - name: Deploy
         run: |
           ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
           cd ${{ secrets.PROJECT_PATH }} && git pull origin main"
